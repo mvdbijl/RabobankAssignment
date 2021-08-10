@@ -1,11 +1,16 @@
 package nl.rabobank.account;
 
+import lombok.Builder;
 import lombok.Value;
 
 @Value
-public class PaymentAccount implements Account
-{
-    String accountNumber;
-    String accountHolderName;
-    Double balance;
+@Builder(toBuilder = true)
+public class PaymentAccount implements Account {
+
+	private String accountHolderName;
+
+	private String accountNumber;
+
+	private Double balance;
+
 }

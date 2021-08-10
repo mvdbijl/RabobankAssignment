@@ -19,8 +19,9 @@
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
         <dependency>
-            <groupId>de.flapdoodle.embed</groupId>
-            <artifactId>de.flapdoodle.embed.mongo</artifactId>
+            <groupId>nl.rabobank</groupId>
+            <artifactId>rabobank-assignment-domain</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
